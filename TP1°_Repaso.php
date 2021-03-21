@@ -109,8 +109,12 @@
     $vinoteca = array ();   
     $vinoteca = obtenerPromedio($coleccionVinos);   // Llamo a la función $obtenerPromedio y almaceno el array que dicha funcion me retorna, para luego mostrar los resultados por pantalla.
 
+    
     echo "┌─────────────────────────────────────────────────────────────────────────────────────────────────────────\n";
+    echo "<br>";
     echo "│─● El promedio del valor de cada vino MALBEC es $".$vinoteca[0]["valorPromedio"]." por Unidad.\n";
+    echo "<br>";
     echo "│─● El promedio del valor de cada vino MERLOT es $".$vinoteca[1]["valorPromedio"]." por Unidad.\n";
+    echo "<br>";
     echo "│─● El promedio del valor de cada vino CABERNET SAVIGNON es $".$vinoteca[2]["valorPromedio"]." por Unidad.\n";
-    echo "└─────────────────────────────────────────────────────────────────────────────────────────────────────────\n";     
+    echo "└─────────────────────────────────────────────────────────────────────────────────────────────────────────\n"; 
