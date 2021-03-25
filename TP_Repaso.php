@@ -2,7 +2,7 @@
 
 /*
 
-        ●   Trabajo Práctico N° 1 - Repaso
+        ●   Trabajo Práctico Repaso
         ●   Espindola Dario G.
         ●   FAI-1220
         ●   Introducción a la Programación Orientada a Objetos
@@ -111,10 +111,7 @@
 
     
     echo "┌─────────────────────────────────────────────────────────────────────────────────────────────────────────\n";
-    echo "<br>";
     echo "│─● El promedio del valor de cada vino MALBEC es $".$vinoteca[0]["valorPromedio"]." por Unidad.\n";
-    echo "<br>";
     echo "│─● El promedio del valor de cada vino MERLOT es $".$vinoteca[1]["valorPromedio"]." por Unidad.\n";
-    echo "<br>";
     echo "│─● El promedio del valor de cada vino CABERNET SAVIGNON es $".$vinoteca[2]["valorPromedio"]." por Unidad.\n";
     echo "└─────────────────────────────────────────────────────────────────────────────────────────────────────────\n"; 
