@@ -1,18 +1,5 @@
 <?php
 
-
-/*
-
-    Para cada una de las siguientes clases implementar los métodos de acceso de cada una de las variables instancias, 
-    el método _ _toString() (que permite visualizar los valores que poseen las variables instancia) y por último, 
-    implementar la clase TestNombreClase para probar cada uno de los métodos implementados en cada clase.
-
-    b) Diseñar e implementar la clase Reloj que simule el comportamiento de un cronómetro digital (con las
-    características puesta_a_cero, incremento, etc.). 
-    Cuando el contador llegue a 23:59:59 y reciba el mensaje de incremento deberá pasar a 00:00:00.
-*/
-
-
 class Reloj{
 
     private $horas;
