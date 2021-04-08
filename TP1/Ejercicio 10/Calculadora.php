@@ -23,11 +23,11 @@ class Calculadora {
         return $this -> n2;
     }
 
-    public function setNumero1(){
+    public function setNumero1($n1){
         $this -> n1 = $n1;
     }
 
-    public function setNumero2(){
+    public function setNumero2($n2){
         $this -> n2 = $n2;
     }
 
